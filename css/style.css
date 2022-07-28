@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+:root {
+    --cor00: #2D232E;
+    --cor01: #534B52;
+    --cor03: #474448;
+    --cor04: #E0DDCF;
+    --cor05: #F1F0EA;
+}
+
+* {
+    margin: 0;
+}
+
+body{
+    background-color: var(--cor04);
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor00), var(--cor01)) ;
+    min-height: 250px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+h1 {
+    
+    color: var(--cor04);
+    padding-bottom: 30px;
+    font-size: 6em;
+}
+
+p.destaque {
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--cor05);
+    font-size: 1.4em;
+    text-align: center;
+}
+main{
+    max-width: 800px;
+    margin: auto;
+}
+
+div{
+    text-align: center;
+    padding: 10px;
+}
+
+#ft00 {
+    border-radius: 5%;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.205);
+    margin: auto;
+   
+}
+
+.social {
+    text-align: center;
+    padding-bottom: 10px;
+    
+}
+
+section > a {
+    padding-left: 15px; 
+    text-decoration: none;
+}
+
+section > a > img {
+    text-align: center;
+    width: 30px;
+    height: 30px;
+}
+section > a > img:hover {
+    
+    width: 35px;
+    height: 35px;
+}
+article {
+    margin: auto;
+    max-width: 800px;
+    padding-bottom: 40px;
+}
+h2 {
+    text-align: center;
+    padding: 20px;
+    font-size: 2.2em;
+    color: var(--cor00);
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: var(--cor03);
+    text-align: justify;
+}
+
+h3 {
+    font-size: 1.4em;
+    padding-bottom: 10px;
+    color: var(--cor00);
+}
+article > div {
+    display: inline-block;
+    width: 244px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.281);
+    background-color: var(--cor04);
+
+}
+
+article > div > p > a {
+    text-decoration: none;
+    color: var(--cor00);
+}
+article > div> p > a:hover {
+    text-decoration: underline;
+}
+a.externo::after {
+    content: '\00A0\1F517';
+}
+
+footer {
+    background-image: linear-gradient(to top, var(--cor00), var(--cor01));
+    height: 50px;
+}
+ #rodape {
+    color: var(--cor05);
+    text-align: center;
+    padding-top: 8px;
+ }
