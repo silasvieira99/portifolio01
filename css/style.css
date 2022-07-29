@@ -29,13 +29,13 @@ h1 {
     
     color: var(--cor04);
     padding-bottom: 30px;
-    font-size: 10vw;
+    font-size: 8vw;
 }
 
 p.destaque {
     font-family: 'Times New Roman', Times, serif;
     color: var(--cor05);
-    font-size: 3.4vw;
+    font-size: 3.2vw;
     text-align: center;
 }
 main{
