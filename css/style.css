@@ -19,22 +19,23 @@ body{
 
 header {
     background-image: linear-gradient(to bottom, var(--cor00), var(--cor01)) ;
-    min-height: 250px;
+    width: 100%;
     text-align: center;
     padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 h1 {
     
     color: var(--cor04);
     padding-bottom: 30px;
-    font-size: 6em;
+    font-size: 10vw;
 }
 
 p.destaque {
     font-family: 'Times New Roman', Times, serif;
     color: var(--cor05);
-    font-size: 1.4em;
+    font-size: 3.4vw;
     text-align: center;
 }
 main{
@@ -80,7 +81,7 @@ section > a > img:hover {
 article {
     margin: auto;
     max-width: 800px;
-    padding-bottom: 40px;
+    padding: 40px;
 }
 h2 {
     text-align: center;
@@ -101,6 +102,11 @@ h3 {
     padding-bottom: 10px;
     color: var(--cor00);
 }
+
+#projetos {
+    text-align: center;
+}
+
 article > div {
     display: inline-block;
     width: 242px;
@@ -108,7 +114,7 @@ article > div {
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.281);
     background-color: var(--cor04);
     border: 1px solid black;
-    margin: auto;
+    
 }
 
 article > div > p > a {
@@ -125,6 +131,7 @@ a.externo::after {
 footer {
     background-image: linear-gradient(to top, var(--cor00), var(--cor01));
     height: 50px;
+    width: 100%;
 }
  #rodape {
     color: var(--cor05);
