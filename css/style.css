@@ -127,6 +127,10 @@ article > div {
     padding: 5px;
 }
 
+article > div > p {
+    line-height: 1.4em;
+}
+
 article > div > p > a {
     text-decoration: none;
     color: var(--cor00);
