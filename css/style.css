@@ -130,7 +130,7 @@ article > div {
 article > div > p > a {
     text-decoration: none;
     color: var(--cor00);
-    
+    font-weight: bold;
 }
 article > div> p > a:hover {
     text-decoration: underline;
